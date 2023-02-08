@@ -1,0 +1,12 @@
+footer{
+    font-family: basicdots;
+    color: $font-content-color;
+
+    & section a img{
+        display: flex;
+        width: 30px;
+        padding-top: 10px;
+    
+    }
+
+}

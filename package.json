@@ -1,0 +1,22 @@
+{
+  "name": "keebmx-b2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cavilesnunez/preentrega2caviles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cavilesnunez/preentrega2caviles/issues"
+  },
+  "homepage": "https://github.com/cavilesnunez/preentrega2caviles#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

@@ -1,0 +1,26 @@
+nav{
+    font-family: basicdots;
+    font-weight: bold;
+    color: $font-main-color;
+
+    & a {
+        color: $font-main-color;
+        font-size: 15px;
+    }
+    
+    & img{
+        width: 3vh;
+    }
+
+
+}
+
+.nicon{
+    background-color: $bg-main;
+    height: 70px;
+    font-size: 32px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
