@@ -70,52 +70,57 @@
         </nav>
     </header>
             <main>
-                <div>
-                    <h1></h1>
-                </div>
                 <section>
-                    <div id="carouselExampleIndicators" class="carousel slide carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                                aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                                aria-label="Slide 4"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                                aria-label="Slide 5"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-                                aria-label="Slide 6"></button>
-                        </div>
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./assets/42Azalia.jpg" class="d-block img-fluid h-100 w-100" alt="42Azalia">
+                            <div class="carousel-item active" data-bs-interval="1000">
+                                <img src="./assets/42Azalia.jpg" class="d-block w-100" alt="42Azalia">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>42Azalia</h5>
+                                    <p>Ortolineal en ángulo unicuerpo de 42 teclas montado en junta impulsado por un RP2040. La caja está inclinada a 6 grados.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./assets/banime40.jpg" class="d-block w-100" alt="banime40">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Banime40</h5>
+                                    <p>Ortogonal hotswap montado en junta de 4x10 que admite múltiples configuraciones.</p>
+                                </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/banime40.jpg" class="d-block img-fluid h-100 w-100" alt="banime40">
+                                <img src="./assets/beyblock20.jpg" class="d-block w-100" alt="beyblock20">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Beyblock20</h5>
+                                    <p>Sistema de macropad de 20 teclas con conectores magnéticos para una experiencia ortolineal de macropad modular y personalizable.</p>
+                                </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/beyblock20.jpg" class="d-block img-fluid h-100 w-100" alt="beyblock20">
+                                <img src="./assets/ffkbwithledring.jpg" class="d-block w-100" alt="ffkbwithledring">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>ffkb with led ring</h5>
+                                    <p>Ortogonal hotswap montado en un case impreso en 3D.</p>
+                                </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/ffkbwithledring.jpg" class="d-block img-fluid h-100 w-100" alt="ffkbwithledring">
+                                <img src="./assets/freaku4x.jpg" class="d-block w-100 h-100" alt="freaku4x">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Freaku4x</h5>
+                                    <p>Ortolineal de 4x10 con perilla y OLED. </p>
+                                </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/freaku4x.jpg" class="d-block img-fluid h-100 w-100" alt="freaku4x">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/keezyboost40.jpg" class="d-block img-fluid h-100 w-100" alt="keezyboost40">
+                                <img src="./assets/keezyboost40.jpg" class="d-block w-100 h-100" alt="keezyboost40">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Keezy boost 40</h5>
+                                    <p>Ortolineal de bajo perfil de 4x10 con una pantalla LCD en el centro.</p>
+                                </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
@@ -144,9 +149,8 @@
                             <div class="card">
                                 <img src="./assets/42Azalia.jpg" class="card-img-top" alt="42Azalia">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                                        additional content. This content is a little bit longer.</p>
+                                    <h5>42Azalia</h5>
+                                    <p class="card-text">Ortolineal en ángulo unicuerpo de 42 teclas montado en junta impulsado por un RP2040. La caja está inclinada a 6 grados.</p>
                                     <button type="button" class="btn btn-dark">Vista Previa</button>
                                     <button type="button" class="btn btn-dark">Agregar a carrito</button>
                                 </div>
@@ -156,9 +160,8 @@
                             <div class="card">
                                 <img src="./assets/banime40.jpg" class="card-img-top" alt="banime40">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                                        additional content. This content is a little bit longer.</p>
+                                    <h5>Banime40</h5>
+                                    <p class="card-text">Ortogonal hotswap montado en junta de 4x10 que admite múltiples configuraciones.</p>
                                         <button type="button" class="btn btn-dark">Vista Previa</button>
                                         <button type="button" class="btn btn-dark">Agregar a carrito</button>
                                 </div>
@@ -168,9 +171,8 @@
                             <div class="card">
                                 <img src="./assets/beyblock20.jpg" class="card-img-top" alt="beyblock20">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                                        additional content. This content is a little bit longer.</p>
+                                    <h5>Beyblock20</h5>
+                                    <p class="card-text">Sistema de macropad de 20 teclas con conectores magnéticos para una experiencia ortolineal de macropad modular y personalizable.</p>
                                         <button type="button" class="btn btn-dark">Vista Previa</button>
                                         <button type="button" class="btn btn-dark">Agregar a carrito</button>
                                 </div>
@@ -180,9 +182,8 @@
                             <div class="card">
                                 <img src="./assets/ffkbwithledring.jpg" class="card-img-top" alt="ffkbwithledring">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                                        additional content. This content is a little bit longer.</p>
+                                    <h5>ffkb with led ring</h5>
+                                    <p class="card-text">Ortogonal hotswap montado en un case impreso en 3D.</p>
                                         <button type="button" class="btn btn-dark">Vista Previa</button>
                                         <button type="button" class="btn btn-dark">Agregar a carrito</button>
                                 </div>
