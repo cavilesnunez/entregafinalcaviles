@@ -64,6 +64,13 @@ footer {
     width: 30px;
     padding-top: 10px; }
 
+h1 {
+  font-family: basicdots;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px; }
+
 .img-nos {
   border-radius: 10px; }
 
@@ -148,7 +155,6 @@ label.fcf-label {
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
   width: 100%; }
 
-/*incluir fuente desde google font */
 @font-face {
   font-family: ptmono;
   src: url(../assets/font/PTMono-Regular.ttf); }
@@ -156,10 +162,3 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 @font-face {
   font-family: basicdots;
   src: url(../assets/font/Basicdots.ttf); }
-
-h1 {
-  font-family: basicdots;
-  color: white;
-  font-weight: bold;
-  padding: 10px;
-  margin: 10px; }
